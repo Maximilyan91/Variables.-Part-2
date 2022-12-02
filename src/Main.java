@@ -99,6 +99,27 @@ public class Main {
         double totalWeightRecipeKG = (double) totalWeightRecipeGrams / 1000;
         System.out.println("Общий вес рецепта " + totalWeightRecipeKG + " килограмм.");
 
+        // Задача №7
+
+        float overWeightKG = 7.0F;
+        float minWeightGramsOfDay = 250F;
+        float maxWeightGramsOfDay = 500F;
+
+        float overWeightGrams = overWeightKG * 1000;
+        float maxDays = overWeightGrams / minWeightGramsOfDay;
+        float minDays = overWeightGrams / maxWeightGramsOfDay;
+
+        float modDays;
+        modDays = minDays % maxDays;
+
+        float middleDays = modDays / 2 + minDays;
+
+        System.out.println("Спортсмен на похудение потратит в среднем " + middleDays + " день.");
+
+
+
+
+
 
     }
 }
