@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,9 +23,19 @@ public class Main {
         long secondValue = 987678965549L;
         double thirdValue = 2.786;
         boolean fourthValue = false;
+        short fifthValue = 569;
+        short sixthValue = -159;
+        int seventhValue = 27879;
+        byte eighthValue = 67;
 
-
-
+        System.out.println("Первая переменная float " + firstValue);
+        System.out.println("Вторая переменная long " + secondValue);
+        System.out.println("Третья переменная double " + thirdValue);
+        System.out.println("Четвертая переменная boolean " + fourthValue);
+        System.out.println("Пятая переменная short " + fifthValue);
+        System.out.println("Шестая переменная short " + sixthValue);
+        System.out.println("Седьмая переменная int " + seventhValue);
+        System.out.println("Восьмая переменная byte " + eighthValue);
 
 
     }
