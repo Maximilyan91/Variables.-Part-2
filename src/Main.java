@@ -64,6 +64,18 @@ public class Main {
         System.out.println("За 3 дня работы машины она произвла бутылок " + powerMachineInThreeDays + " штук" );
         System.out.println("За месяц работы машины она произвла бутылок " + powerMachineInThirtyDays + " штук" );
 
+        //Задача №5
+
+        int totalPaintOfSchool = 120;
+        int whitePaintForOneClass = 2;
+        int brownPaintForOneClass = 4;
+
+        int totalPaintOfOneClass = whitePaintForOneClass + brownPaintForOneClass;
+        int totalClassesInSchool = totalPaintOfSchool / totalPaintOfOneClass;
+        int totalWhitePaint = totalClassesInSchool * whitePaintForOneClass;
+        int totalBrownPaint = totalClassesInSchool * brownPaintForOneClass;
+
+        System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
     }
 
 }
