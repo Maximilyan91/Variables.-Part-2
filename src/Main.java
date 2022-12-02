@@ -94,6 +94,10 @@ public class Main {
         int totalWeightIceCreamGrams = iceCream * weightOneIceCreamGrams;
         int totalWeightEggsGrams = eggs * weightOneEggGrams;
 
+        int totalWeightRecipeGrams = totalWeightBananasGrams +totalWeightMilkGrams + totalWeightIceCreamGrams + totalWeightEggsGrams;
+
+        double totalWeightRecipeKG = totalWeightRecipeGrams / 1000;
+
 
     }
 }
