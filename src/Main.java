@@ -96,7 +96,8 @@ public class Main {
 
         int totalWeightRecipeGrams = totalWeightBananasGrams +totalWeightMilkGrams + totalWeightIceCreamGrams + totalWeightEggsGrams;
 
-        double totalWeightRecipeKG = totalWeightRecipeGrams / 1000;
+        double totalWeightRecipeKG = (double) totalWeightRecipeGrams / 1000;
+        System.out.println("Общий вес рецепта " + totalWeightRecipeKG + " килограмм.");
 
 
     }
