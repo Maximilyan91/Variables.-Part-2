@@ -116,6 +116,25 @@ public class Main {
 
         System.out.println("Спортсмен на похудение потратит в среднем " + middleDays + " день.");
 
+        // Задача №8
+
+        double payMashaInMonth = 67760.0;
+        double payDenisInMonth = 83690.0;
+        double payChrisInMonth = 76230.0;
+
+        double boostPayMashaInMonth = payMashaInMonth * 0.1 + payMashaInMonth;
+        double boostPayDenisInMonth = payDenisInMonth * 0.1 + payDenisInMonth;
+        double boostPayChrisInMonth = payChrisInMonth * 0.1 + payChrisInMonth;
+
+        double boostPayMashaInYear = (boostPayMashaInMonth - payMashaInMonth) * 12;
+        double boostPayDenisInYear = (boostPayDenisInMonth - payDenisInMonth) * 12;
+        double boostPayChrisInYear = (boostPayChrisInMonth - payChrisInMonth) * 12;
+
+        System.out.println("Маша теперь будет получать " + boostPayMashaInMonth + " рублей в месяц. Годовой доход вырос на " + boostPayMashaInYear + " рублей.");
+        System.out.println("Денис теперь будет получать " + boostPayDenisInMonth + " рублей в месяц. Годовой доход вырос на " + boostPayDenisInYear + " рублей.");
+        System.out.println("Маша теперь будет получать " + boostPayChrisInMonth + " рублей в месяц. Годовой доход вырос на " + boostPayChrisInYear + " рублей.");
+
+
 
 
 
