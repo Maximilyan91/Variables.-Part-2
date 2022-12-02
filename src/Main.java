@@ -77,5 +77,4 @@ public class Main {
 
         System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
     }
-
 }
