@@ -76,5 +76,24 @@ public class Main {
         int totalBrownPaint = totalClassesInSchool * brownPaintForOneClass;
 
         System.out.println("В школе, где " + totalClassesInSchool + " классов, нужно " + totalWhitePaint + " банок белой краски и " + totalBrownPaint + " банок коричневой краски");
+
+        // Задача №6
+
+        int bananas = 5;
+        int milk = 2;
+        int iceCream = 2;
+        int eggs = 4;
+
+        int weightOneBananaGrams = 80;
+        int weightOneMilkGrams = 105;
+        int weightOneIceCreamGrams = 100;
+        int weightOneEggGrams = 70;
+
+        int totalWeightBananasGrams = bananas * weightOneBananaGrams;
+        int totalWeightMilkGrams = milk * weightOneMilkGrams;
+        int totalWeightIceCreamGrams = iceCream * weightOneIceCreamGrams;
+        int totalWeightEggsGrams = eggs * weightOneEggGrams;
+
+
     }
 }
