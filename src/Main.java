@@ -49,6 +49,20 @@ public class Main {
         int paperLists = totalPaperLists / totalStudents;
         System.out.println("На каждого ученика рассчитано " + paperLists + " листов бумаги.");
 
+        // Задача №4
+
+        int powerMachineInTwoMinutes = 16;
+
+        int powerMachineInOneMinutes = powerMachineInTwoMinutes / 2;
+        int powerMachineInTwentyMinutes = powerMachineInOneMinutes * 20;
+        int powerMachineInDay = powerMachineInOneMinutes * 1440;
+        int powerMachineInThreeDays = powerMachineInDay * 3;
+        int powerMachineInThirtyDays = (powerMachineInThreeDays * 10);
+
+        System.out.println("За 20 минут работы машины она произвла бутылок " + powerMachineInTwentyMinutes + " штук" );
+        System.out.println("За 1 сутки работы машины она произвла бутылок " + powerMachineInDay + " штук" );
+        System.out.println("За 3 дня работы машины она произвла бутылок " + powerMachineInThreeDays + " штук" );
+        System.out.println("За месяц работы машины она произвла бутылок " + powerMachineInThirtyDays + " штук" );
 
     }
 
