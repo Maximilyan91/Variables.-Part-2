@@ -37,6 +37,18 @@ public class Main {
         System.out.println("Седьмая переменная int " + seventhValue);
         System.out.println("Восьмая переменная byte " + eighthValue);
 
+        // Задача №3
+
+        int studentsOfTheFirstTeacher = 23;
+        int studentsOfTheSecondTeacher = 27;
+        int studentsOfTheThirdTeacher = 30;
+        int totalPaperLists = 480;
+
+        int totalStudents = studentsOfTheFirstTeacher + studentsOfTheSecondTeacher + studentsOfTheThirdTeacher;
+
+        int paperLists = totalPaperLists / totalStudents;
+        System.out.println("На каждого ученика рассчитано " + paperLists + " листов бумаги.");
+
 
     }
 
