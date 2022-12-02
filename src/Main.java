@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
 
 public class Main {
@@ -18,6 +19,17 @@ public class Main {
         System.out.println("Значение переменной variableFloat типом float равно " + variableFloat);
         System.out.println("Значение переменной variableDouble типом double равно " + variableDouble);
 
+        // Задача №2
+
+        float firstValue = 27.12F;
+        long secondValue = 987678965549L;
+        double thirdValue = 2.786;
+        boolean fourthValue = false;
+
+
+
+
 
     }
+
 }
